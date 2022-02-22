@@ -29,8 +29,10 @@ int main()
   else if(distance > 30)
       {cost = (30*50.0) + (distance - 30) * 40.0;}
   else
+  {
       printf("The distance is not valid");
-    
+    return 1;
+  }
 printf(" The amount is :%.2f",cost);     
       return 0;
 }
