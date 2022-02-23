@@ -27,7 +27,7 @@ int main() {
       else if(no1 < no2)
       {return no1;}
       else
-      {print("Enter two different numbers");}
+      {printf("Enter two different numbers");}
       return 0;
    }
 
@@ -38,7 +38,7 @@ int main() {
       else if(no1 < no2)
       {return no2;}
       else
-      {print("Enter two different numbers");}
+      {printf("Enter two different numbers");}
       return 0;
    }
 
